@@ -20,5 +20,3 @@
 include:
   - board: xiao_ble//zmk
     shield: MagicMouse2 rgbled_adapter
-  - board: xiao_ble
-    shield: settings_reset
