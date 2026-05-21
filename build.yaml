@@ -18,5 +18,5 @@
 #
 ---
 include:
-  - board: xiao_ble
+  - board: xiao_ble//zmk
     shield: MagicMouse2 rgbled_adapter
