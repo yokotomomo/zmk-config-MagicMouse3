@@ -53,11 +53,7 @@
                 zephyr,axis-x = <INPUT_REL_X>;
                 zephyr,axis-y = <INPUT_REL_Y>;
                 res-cpi = <2600>; 
-        
-                /*   optional features   */
-                // snipe-layers = <1>;
-                // scroll-layers = <2 3>;
-                // automouse-layer = <4>;
+                invert-y;
             };
         };
         / {
