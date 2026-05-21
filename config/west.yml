@@ -7,7 +7,8 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: main
+      revision: main   # ← ここが「zmk-0.3」などになっていたら「main」に修正してください
+      import: app/west.yml
     - name: zmk-rgbled-widget
       remote: caksoylar
       revision: main
