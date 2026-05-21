@@ -53,6 +53,8 @@
                 zephyr,axis-x = <INPUT_REL_X>;
                 zephyr,axis-y = <INPUT_REL_Y>;
                 res-cpi = <2600>; 
+
+input-processors = <&zip_xy_transform (INPUT_TRANSFORM_Y_INVERT)>;
             };
         };
         / {
@@ -61,7 +63,6 @@
                 compatible = "zmk,input-listener";
                 status = "okay";
                 device = <&trackball>;
-input-processors = <&zip_xy_transform (INPUT_TRANSFORM_Y_INVERT)>;
 
             };
         };
